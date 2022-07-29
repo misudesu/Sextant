@@ -11,7 +11,10 @@ function Exhibit(){
 }} >iPv6</Link>
 <p> <Link    to={`/${ipss}`} state={{ 
   idss:ipss,
-}}  >iPv4</Link>
+}}>iPv4</Link>
+    </p>
+    <hr/>
+    <p> <Link to="poly" >Poly</Link>
     </p>
     <hr/>
 </header>
