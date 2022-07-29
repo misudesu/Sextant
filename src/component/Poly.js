@@ -1,6 +1,6 @@
 import React,{useEffect,useState} from 'react';
-var W3CWebSocket = require('websocket').w3cwebsocket;
-var client = new W3CWebSocket('wss://localhost:55455/', 'echo-protocol');
+const W3CWebSocket = require('websocket').w3cwebsocket;
+const client = new W3CWebSocket('ws://localhost:55455/', 'echo-protocol');
 
 export default function Poly(){
      client.onmessage = function (event) {
